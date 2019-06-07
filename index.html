@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -14,14 +16,35 @@
   <![endif]-->
 </head>
 
+<STYLE>A {text-decoration: none;} </STYLE>
+
 <body>
 
  <!-- navigation code here -->
+
+ <nav class="navsection">
+
+  <div class="logodiv">
+    <h1>SpaceWalkers</h1>
+  </div>
+
+  <div>
+    <ul class="navmenu">
+      <li><a href="#" class="homeitem">Home</a></li>
+      <li><a href="#" class="aboutitem">About Us</a></li>
+      <li><a href="#" class="blogitem">Blog</a></li>
+      <li><a href="#" class="contactitem">Contact</a></li>
+      <li><a href="#" class="signitem">Sign In</a></li>
+    </ul>
+  </div>
+
+</nav>
 
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+       <img src="img/main-header.png" class="headerimage" alt="Earth Sky View">
 
       <h2>Lift Off</h2>
     
@@ -51,14 +74,36 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
-          Sign Up
+        <div>
+          <button class="sibutton">Sign Up</button>
         </div>
       </div>
       
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
+
+    </section>
+
+    <section class="formsection">
+
+    <div class="titleform">
+      <H2>SIGN UP TO WALK ON THE MOON</H2>
+    </div>
+   
+    <div class="form">
+      <form accept-charset="UTF-8" action="action_page.php" autocomplete="off" method="GET" target="_blank">
+        <label for="name">Name</label><br /> 
+        <input name="name" type="text" value="Enter Your Full Name" /> <br /> 
+        <textarea cols="30" rows="2">Why you want to walk the moon</textarea><br /> 
+        <select>
+          <option selected="selected" value="1">I Read The Waiver</option>
+          <option value="2">Did Not Read The Waiver</option>
+        </select><br /> 
+        <input name="democheckbox" type="checkbox" value="1" /> Check Yes<br /> 
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
 
     </section>
 

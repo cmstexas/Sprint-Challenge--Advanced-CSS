@@ -1,1 +1,44 @@
 // Navigation code here
+
+.navsection{
+    display: flex;
+    flex-direction: column;
+    background: #F0F0F5; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+
+    h1{
+        font-size: 5rem;
+        display:flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+ 
+    .navmenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 2rem;
+        color: gray;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+ 
+    .homeitem{
+        margin-left: 30rem;
+
+            @media @phone{
+                margin-left: 1rem;                
+            }
+    }
+
+    .signitem{
+        margin-right: 30rem;
+
+            @media @phone{
+                margin-right: 1rem;
+            }
+    }
