@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Both shift and change based on browser width. Responsive sites are fluid and respond to all width sizes automatically, while Adaptive sites adapt to the screen at specific width points - snapping to each point.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile-first designs with mobile phone size screens in mind first. This is the default. Then, media queries allow us to make the site responsive for bigger screens using the “min-width” function. Desktop-first designs are made for desktop screen sizes first. It uses media queries to adapt the design for small screens (tablet and mobile) using “max-width.”
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This font-size gives us a baseline value in which all future font-sizes throughout the design can refer to. Rem allows us to create new font-size values by referring to this 62.5% initial value. 2rem will equal double the size of our initial baseline value (62.5%)
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A preprocessor like LESS is a program that you download that lets you edit the CSS in a more complex way than generally allowed in CSS. This system that runs on top of the CSS system makes better organization features like mixins, nesting, and functions pos
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is parametric mixins. The ability to change the definition of a variable once and edit the entire website’s css for similar variables is awesome! The concept that gives me the most trouble is functions - remembering when and how to use them.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
